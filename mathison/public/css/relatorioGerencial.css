@@ -1,0 +1,202 @@
+/*created by Dagberto Rigue*/
+
+#chartdivPerfil {
+  width: 100%;
+  height: 350px;
+}
+#chartdivPerfil2 {
+  width: 100%;
+  height: 350px;
+}
+#chartdivStatus {
+  width: 100%;
+  height: 350px;
+}
+#chartdivAnormalidades {
+  width: 100%;
+  height: 350px;
+  font-size: 11px;
+}
+#chartdivProblemas {
+  width: 100%;
+  height: 350px;
+}
+#chartdivPerfil_2 {
+  width: 100%;
+  height: 350px;
+}
+#chartdivPerfil2_2 {
+  width: 100%;
+  height: 350px;
+}
+#chartdivStatus_2 {
+  width: 100%;
+  height: 350px;
+}
+#chartdivAnormalidades_2 {
+  width: 100%;
+  height: 350px;
+  font-size: 11px;
+}
+#chartdivProblemas_2 {
+  width: 100%;
+  height: 350px;
+}
+#menuchartdivPerfil {
+  width: 100%;
+  height: 80px;
+}
+#menuchartdivPerfil2 {
+  width: 90%;
+  height: 80px;
+}
+#menuchartdivStatus {
+  width: 90%;
+  height: 80px;
+}
+#menuchartdivAnormalidades {
+  width: 90%;
+  height: 80px;
+}
+#menuchartdivProblemas {
+  width: 90%;
+  height: 80px;
+}
+#chartdivPerfil_ol {
+  width: 100%;
+  height: 550px;
+}
+#chartdivPerfil2_ol {
+  width: 100%;
+  height: 550px;
+}
+#chartdivStatus_ol {
+  width: 100%;
+  height: 550px;
+}
+#chartdivAnormalidades_ol {
+  width: 100%;
+  height: 550px;
+}
+#chartdivProblemas_ol {
+  width: 100%;
+  height: 550px;
+}
+#chartdivPerfil_or {
+  width: 100%;
+  height: 550px;
+}
+#chartdivPerfil2_or {
+  width: 100%;
+  height: 550px;
+}
+#chartdivStatus_or {
+  width: 100%;
+  height: 550px;
+}
+#chartdivAnormalidades_or {
+  width: 100%;
+  height: 550px;
+}
+#chartdivProblemas_or {
+  width: 100%;
+  height: 550px;
+}
+
+
+.strlengcut {
+  max-width: 85ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cab_cent {
+  text-align: center!important;
+}
+.cab_right {
+  text-align: right!important;
+}
+.cab_left {
+  text-align: left!important;
+}
+
+.buttondg {
+ width:100%!important;
+ font-size: 11px!important;
+ padding: 10px!important;
+ -webkit-border-radius: 6px!important;
+ -moz-border-radius: 6px!important;
+ border-radius: 6px!important;
+ color: #ddd;
+ font-family: Arial Black!important;
+ text-decoration: none!important;
+ vertical-align: middle!important;
+ display: inline-block!important;
+ font-weight: 400!important;
+ text-align: center!important;
+ vertical-align: middle!important;
+ cursor: pointer!important;
+ white-space: nowrap!important;
+ padding: 2px 12px!important;
+ line-height: 1.6!important;
+ margin-top:-8px!important;
+ margin-bottom:-8px!important;"
+ }
+.buttondg:hover {
+   border-top-color: #11de29;
+   background: #11de29;
+   color: #fff;
+ }
+.buttondg:active {
+   border-top-color: #f8ff1f;
+   background: #f8ff1f;
+ }
+.panel-relative{
+  position: relative!important;
+}
+.btn-right{
+  position: absolute!important;
+  right: 15px!important;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd!important;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc!important;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px!important;
+}
+.tabfade {
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

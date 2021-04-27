@@ -1,0 +1,35 @@
+/* Bot�o pesquisar e Mais Bot�es */
+.btnPesquisar, .btnMaisBotoes{
+	position: fixed;
+	float: bottom;
+	bottom: 15px;
+	right: 250px;
+	z-index: 100;
+}
+
+/* Bot�o superior esquerdo */
+.btnSupEsquerdo{
+	position: fixed;
+	float: top;
+	top: 15px;
+	left: 15px;
+	z-index: 100;
+}
+
+.btnPesquisarInput, .btnPesquisarBtn , .btnMaisBotoesBtn, .btnMaisBotoesGrupo{
+	display: inline-block;
+}
+
+.btnCircular{
+	border-radius: 50%;
+}
+
+.btnPrincipal{
+	font-size: 20px;
+	padding: 15px;
+}
+
+.btnSecundario{
+	font-size: 15px;
+	padding: 10px;
+}
